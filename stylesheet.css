@@ -1,0 +1,65 @@
+#wrapper{
+	width: 75%;
+	margin: auto auto;
+	height: 100vh;
+	background-color: #bbab9b
+}
+#stopWatch{
+	width: 30%;
+	height: 40%;
+	margin-left: 100px;
+	margin-top: 35px;
+	background-color: #d4ac6e;
+	display: block;
+}
+#interval{
+	width: 30%;
+	height: 40%;
+	margin-right: 100px;
+	margin-top: 35px;
+	background-color: #8b6f47;
+}
+h1{
+	font-size: 60px;
+}
+h2{
+	font-size: 40px;
+}
+img{
+	padding: 50px;
+
+}
+label{
+
+}
+.centerText{
+	text-align: center;
+}
+.floatRight{
+	float: right;
+}
+.floatLeft{
+	float: left;
+}
+.clearFloat{
+	clear: left;
+	clear: right;
+}
+.clockDisplay{
+	font-size: 80px;
+}
+.headingDisplay{
+	font-size: 30px;
+}
+.restDisplay{
+	font-size: 30px;
+	color: FireBrick;
+}
+.buttons{
+	padding: 10px;
+}
+p{
+	font-family: Chalkduster, fantasy;
+	font-size: 18px;
+}
+

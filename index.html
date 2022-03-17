@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Stop Watch</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+<div id="wrapper" class="centerText">
+<h1>Stop Watch + Interval Workout Timer</h1>
+<div id="stopWatch" class="floatLeft">
+<h2>Stop Watch</h2>
+<div><!-- Running Clock:  --><span id="runningClock" class="clockDisplay">0:00</span></div>
+<div class="headingDisplay">Split Time(Seconds): <span id="time"></span></div>
+<div class="headingDisplay">Exact Total Time(Seconds): <span id="totalTime"></span></div>
+<input class="buttons" id="start" type="button" value="Start" /> &nbsp &nbsp &nbsp
+<input class="buttons" id="split" type="button" value="Split" /> &nbsp &nbsp &nbsp
+<input class="buttons" id="stop" type="button" value="Stop" />
+</div>
+
+<div id="interval" class="floatRight">
+<h2>Interval Workout</h2>
+<div><!-- Work Time:  --><span id="workTime" class="clockDisplay">0</span></div>
+<div class="headingDisplay" class="floatLeft">Rest Time: <span id="restTime" class="restDisplay"></span></div>
+<div class="headingDisplay">Reps to Go: <span id="repNum"></span></div>
+<input class="buttons" id="startPlank" type="button" value="Start Plank" /> &nbsp &nbsp &nbsp
+<input class="buttons" id="startPushup" type="button" value="Start Push-Up" /> &nbsp &nbsp &nbsp
+<input class="buttons" id="startSquat" type="button" value="Start Squat" />
+</div>
+
+<div class="clearFloat">
+<img id="plankImg" src="plank.jpg" height="200px" width="300px"/>
+<img id="pushImg" src="pushup.png" height="200px" width="300px"/>
+<img id="squatImg" src="squat.jpg" height="200px" width="300px"/>
+</div>
+<p>Select a workout and follow along to the timer. Plank, do push-ups, or squat while the work timer is 
+ticking. Take a rest while the rest timer is ticking. A beep will sound to let you know when to switch.
+Or simply use the timer for any other workjout needs! The split buton will let you know how long its been since 
+you last clicked start or split. Enjoy the burn!</p>
+</div> 
+<script src="stopWatch.js"></script>
+</body>
+</html>
